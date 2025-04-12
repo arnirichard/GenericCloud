@@ -1,1 +1,1 @@
-[View Live Page](https://arnirichard.github.io/GenericCloud/)
+[View Raw HTML](https://arnirichard.github.io/GenericCloud/)
