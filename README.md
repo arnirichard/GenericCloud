@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
   <div class="container">
-    <img src="logo2.png" alt="Generic Cloud Logo" class="logo" width="400px">
+    <img src="logo2.png" alt="Generic Cloud Logo" class="logo" width="600px">
     <h1>Generic Cloud</h1>
     <p>A Truly Backendless Cloud Platform</p>
   </div>
