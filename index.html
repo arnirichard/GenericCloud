@@ -25,13 +25,22 @@
       overflow-y: hidden;
     }
 
-    .logo {
-        width: 400px; /* Adjust as needed */
-        max-width: 100%; /* Make it responsive */
-        height: auto; /* Maintain aspect ratio */
-        margin-bottom: 1.5rem; /* Space between logo and text */
-    }
+.logo {
+    width: 400px; /* Default width */
+    height: auto;
+}
 
+@media (max-width: 768px) {
+    .logo {
+        width: 300px; /* Adjust width for mobile */
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        width: 200px; /* Adjust width for smaller mobiles */
+    }
+}
     h1 {
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
