@@ -21,11 +21,14 @@
       height: 100vh;
       text-align: center;
       user-select: none;
+      overflow-x: hidden;
     }
 
     .logo {
-      width: 400px; /* Adjust as needed */
-      margin-bottom: 1.5rem; /* Space between logo and text */
+        width: 400px; /* Adjust as needed */
+        max-width: 100%; /* Make it responsive */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 1.5rem; /* Space between logo and text */
     }
 
     h1 {
